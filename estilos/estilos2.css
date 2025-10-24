@@ -1,0 +1,47 @@
+#medio{
+    width: 34%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#primero{
+    width: 34%;
+}
+
+#tercero{
+    width: 34%;
+}
+
+#indice{
+    height: 30px;
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+}
+
+#indice button {
+  border: none;
+  padding: 10px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+#indice button:hover {
+  background-color: #19305b;
+  color: white;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+  #indice {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
