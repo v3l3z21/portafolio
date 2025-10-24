@@ -26,7 +26,7 @@ function redireccionH(inicio) {
         
     }
     if (inicio === 'pri') {
-        window.location.href = "principal.html";
+        window.location.href = "index.html";
         
     }
 }
